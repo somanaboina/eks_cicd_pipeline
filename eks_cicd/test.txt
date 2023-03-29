@@ -1,0 +1,2 @@
+ eksctl create iamidentitymapping --cluster  dev-cluster --region=us-east-1 --arn arn:aws:iam::112170127644:role/CodeBuildKubectlRole --group system:masters --username CodeBuildKubectlRole
+
