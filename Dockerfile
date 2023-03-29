@@ -1,4 +1,4 @@
-FROM node:19
+FROM 112170127644.dkr.ecr.us-east-1.amazonaws.com/cicd-demo:latest
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
